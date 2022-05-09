@@ -61,7 +61,7 @@ const HomePage = () => {
         //rent(car)
         setSelectedRent(new Rent('','','','','','','',''));
         saveComponent.current?.showRentModal();
-        //setInfoMessage('running');
+        setInfoMessage('Completed');
     };
 
 
@@ -100,7 +100,7 @@ const HomePage = () => {
 
             <div className="d-flex flex-wrap">
                 {carList.map((item, ind) =>
-                    <div key={item.id} className="card m-3 home-card">
+                    <div key={item.id} className="card m-2 home-card">
 
                         
 
@@ -114,9 +114,9 @@ const HomePage = () => {
                         
 
 
-                        <div className="row mt-2 p-3">
-                            <div className="col-6 mt-2 ps-4">
-                                {`$ ${item.price}  Per Day`}
+                        <div className="row mt-2 p-2">
+                            <div className="col-6 mt-2 ps-3">
+                                {`$ ${item.price}  / Day`}
                             </div>
                             <div className="col-6">
                                 <button

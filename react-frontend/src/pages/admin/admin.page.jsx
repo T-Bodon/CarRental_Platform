@@ -117,7 +117,7 @@ const AdminPage = () => {
                                         <td>{`$ ${item.over_mil_fee}`}</td>
                                         <td>{item.year}</td>
                                         <td>{item.lic_pla_no}</td>
-                                        <td>{item.start_odo}</td>
+                                        <td>{`${item.price} KM`}</td>
                                         <td>{new Date(item.createTime).toLocaleDateString()}</td>
                                         <td>
                                             <button className="btn btn-primary me-1" onClick={() => editCarRequest(item)}>

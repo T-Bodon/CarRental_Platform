@@ -2,11 +2,14 @@ import { forwardRef, useEffect, useImperativeHandle, useState } from 'react';
 import Rent from '../models/rent';
 import RentService from '../services/rent.service';
 import { Modal } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 //const currentUser = useSelector(state => state.user);
 //const [infoMessage, setInfoMessage] = useState('');
 
 const RentSave = forwardRef((props, ref) => {
+
+    const navigate = useNavigate();
 
     useImperativeHandle(ref, () => ({
         //interaction with parent
@@ -219,6 +222,8 @@ const RentSave = forwardRef((props, ref) => {
                 </div>
             </form>
         </Modal>
+
+        
     );
 
 });
