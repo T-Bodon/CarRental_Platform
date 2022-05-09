@@ -1,0 +1,14 @@
+.custom-card {
+	width: 350px;
+	max-width: 100%;
+	background-color: rgba(255, 255, 255, 0.072)!important;
+}
+
+.user-icon {
+	font-size: 100px;
+	color: rgb(0, 0, 0);
+}
+
+.form-group {
+	color: rgb(255, 255, 255);
+}

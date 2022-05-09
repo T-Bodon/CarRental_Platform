@@ -1,0 +1,12 @@
+.home-card {
+	width: 300px;
+	background-color: #f8f7f7;
+}
+
+.car-icon {
+	width: 300px;
+	height:auto;
+	margin-left: -17px;
+	margin-top: -17px;
+	margin-bottom: 10px;
+}

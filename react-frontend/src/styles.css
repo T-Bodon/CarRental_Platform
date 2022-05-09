@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100;
+}
+
+.main-container{
+    text-align: center;
+    background-image: url("./123.jpg");
+    position: fixed;
+    min-width: 105vw;
+    min-height: 100vh;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -195px;
+
+
+   
+}
