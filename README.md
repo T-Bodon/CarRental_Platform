@@ -1,3 +1,3 @@
-# CS6083_CarRental
+# CarRental
 A Web App for CarRental
  <img src="Homepage.png">
